@@ -94,9 +94,7 @@ Architecture Design
 
 - Due to the complexity around user validation, it is necessary to move some of the the middlewares code to a common package that will eventually be pushed into npm `@kei-tickets/common`
 
-- TypeScript uses a file called tsconfig.json for managing your project’s options, such as which files you want to include, and what sorts of checking you want to perform `tsc --init`
-
-- Securely store secrets with Kubernetes: run `kubectl create secret generic jwt-secret --from-literal=JWT_KEY=asdf`
+- Securely store secrets with Kubernetes: run `kubectl create secret generic jwt-secret --from-literal=JWT_KEY=togetpassthetest`
 
 - Mongodb-memory-server package is a copy of Mongo in memory. This package helps us to test multiple databases at the same time. We can test different services concurringly on the same machine
 
